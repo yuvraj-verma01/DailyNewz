@@ -8,5 +8,9 @@ out/
 dist/
 build/
 *.egg-info/
+<<<<<<< HEAD
 config.yaml
 config.yaml
+=======
+*.yaml
+>>>>>>> 4332cb75d3735d3ee583b9ab7af987b244503495
