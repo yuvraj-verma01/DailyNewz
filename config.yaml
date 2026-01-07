@@ -20,8 +20,8 @@ keywords:
   - economy
   - policy
 email:
-  from_email: newsreader010505@gmail.com
-  to_email: newsreader010505@gmail.com
+  from_email: sample
+  to_email: sample
   subject_prefix: Daily Digest
   smtp_host: smtp.gmail.com
   smtp_port: 465
