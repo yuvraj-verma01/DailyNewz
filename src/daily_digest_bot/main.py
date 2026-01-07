@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import os
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -88,6 +89,10 @@ def run(
 
 
 def main() -> int:
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    if hasattr(sys.stderr, "reconfigure"):
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
     parser = argparse.ArgumentParser(description="Daily news digest bot")
     parser.add_argument(
         "--config", default="config.yaml", help="Path to config YAML"
