@@ -1,0 +1,28 @@
+world_feeds:
+  - name: BBC World
+    url: https://feeds.bbci.co.uk/news/world/rss.xml
+  - name: Reuters World
+    url: https://feeds.reuters.com/Reuters/worldNews
+india_feeds:
+  - name: The Hindu National
+    url: https://www.thehindu.com/news/national/feeder/default.rss
+  - name: Indian Express India
+    url: https://indianexpress.com/section/india/feed/
+source_weights:
+  BBC World: 1.0
+  Reuters World: 1.1
+  The Hindu National: 1.0
+  Indian Express India: 0.95
+keywords:
+  - election
+  - conflict
+  - diplomacy
+  - economy
+  - policy
+email:
+  from_email: newsreader010505@gmail.com
+  to_email: newsreader010505@gmail.com
+  subject_prefix: Daily Digest
+  smtp_host: smtp.gmail.com
+  smtp_port: 465
+output_dir: out
