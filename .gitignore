@@ -8,4 +8,4 @@ out/
 dist/
 build/
 *.egg-info/
-config.yaml
+*.yaml
